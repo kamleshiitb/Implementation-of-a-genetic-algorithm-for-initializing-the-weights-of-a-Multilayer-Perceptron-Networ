@@ -8,19 +8,19 @@ A set of random weights are generated. This is the neural network of the first a
 This process slowly optimizes the agent’s performance, as the agents slowly adapt to the environment.
 
 # Genetic algorithm works in 5 phases
-1. Initial population
+# 1. Initial population
 This step starts with guessing of initial sets of a and b values which may or may not include the optimal values. These sets of values are called as ‘chromosomes’ and the step is called ‘initialize population’. Here population means sets of a and b [a,b]. Random uniform function is used to generate initial values of a and b. In this optimization problem, six sets of a and b values are generated between 1 and 10.
 
-2. Fitness function
+# 2. Fitness function
 In this step, the value of the objective function for each chromosome is computed. The value of the objective function is also called fitness value. This step is very important and is called ‘selection’ because fittest chromosomes are selected from the population for subsequent operations.
 
-3. Selection
+# 3. Selection
 Based on the fitness values, more suitable chromosomes who have possibilities of producing low values of fitness function (because the value of our objective function needs to be 0) are selected and allowed to survive in succeeding generations. Some chromosomes are discarded to be unsuitable to produce low fitness values.
 
-4. Crossover
+# 4. Crossover
 This step is called ‘crossover’. In this step, chromosomes are expressed in terms of genes. This can be done by converting the values of a and b into binary strings which means the values need to be expressed in terms of 0 or 1.
 
-5. Mutation
+# 5. Mutation
 his step is called ‘mutation’. Mutation is the process of altering the value of gene i.e to replace the value 1 with 0 and vice-versa. For example, if offspring chromosome is [1,0,0,1], after mutation it becomes [1,1,0,1]. Here, 2nd value of the offspring chromosome is decided to get mutated. It has got changed to 1 from 0.
 
 # Data collection and Training the model
