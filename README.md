@@ -23,6 +23,8 @@ This step is called ‘crossover’. In this step, chromosomes are expressed in 
 5. Mutation
 his step is called ‘mutation’. Mutation is the process of altering the value of gene i.e to replace the value 1 with 0 and vice-versa. For example, if offspring chromosome is [1,0,0,1], after mutation it becomes [1,1,0,1]. Here, 2nd value of the offspring chromosome is decided to get mutated. It has got changed to 1 from 0.
 
+# Data collection and Training the model
+We have used MNIST Dataset in our project to train the Multilayer perceptron network.The MNIST database (Modified National Institute of Standards and Technology database) is a large database of handwritten digits that is commonly used for training various image processing systems. The database is also widely used for training and testing in the field of machine learning. It was created by "re-mixing" the samples from NIST's original datasets. The creators felt that since NIST's training dataset was taken from American Census Bureau employees, while the testing dataset was taken from American high school students, it was not well-suited for machine learning experiments. Furthermore, the black and white images from NIST were normalized to fit into a 28x28 pixel bounding box and anti-aliased, which introduced grayscale levels.
 
 # Advantages and Disadvantages:
 # Advantages:
